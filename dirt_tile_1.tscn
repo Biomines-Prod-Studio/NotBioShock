@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://ctgxej8n8kri7"]
+
+[ext_resource type="Script" path="res://dirt_tile_1.gd" id="1_34yel"]
+[ext_resource type="Texture2D" uid="uid://bxxkvm2ntx5cu" path="res://Sprites/Tiles/dirt.png" id="2_j4g5m"]
+
+[node name="DirtTile1" type="StaticBody2D"]
+script = ExtResource("1_34yel")
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+texture_repeat = 2
+texture = ExtResource("2_j4g5m")

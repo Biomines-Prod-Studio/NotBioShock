@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://teunl8bjyqcw"]
+
+[ext_resource type="Script" path="res://GrassTile1.gd" id="1_jst8g"]
+[ext_resource type="Texture2D" uid="uid://cstq6kd88dpfh" path="res://Sprites/Tiles/grass.png" id="2_rkhk2"]
+
+[node name="GrassTile1" type="StaticBody2D"]
+script = ExtResource("1_jst8g")
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+texture_repeat = 2
+texture = ExtResource("2_rkhk2")

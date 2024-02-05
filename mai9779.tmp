@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://ciupgfpegfjjt"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_va54u"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_va54u")
+
+[node name="Play" type="Button" parent="."]
+offset_left = 478.0
+offset_top = 113.0
+offset_right = 699.0
+offset_bottom = 171.0
+text = "Play"
+
+[node name="Quit" type="Button" parent="."]
+offset_left = 479.0
+offset_top = 196.0
+offset_right = 700.0
+offset_bottom = 254.0
+tooltip_text = "This will close the game window."
+text = "Quit"
+
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
